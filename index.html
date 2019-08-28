@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>LevelMapDraw</title>
+    <style>
+      .selected {
+        color: red;
+      }
+
+      #tileCodes {
+        font-family: Verdana, sans-serif;
+      }
+
+      #tileImages img {
+        cursor: pointer;
+      }
+
+      #log {
+        font-family: monospace;
+        background-color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead id="tileCodes"></thead>
+      <tbody id="tileImages"></tbody>
+    </table>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div id="log"></div>
+
+    <script type="text/javascript" src="js/GraphicsCommon.js"></script>
+    <script type="text/javascript" src="js/ImageLoading.js"></script>
+    <script type="text/javascript" src="js/World.js"></script>
+    <script type="text/javascript" src="js/Input.js"></script>
+    <script type="text/javascript" src="js/Builder.js"></script>
+    <script type="text/javascript" src="js/Main.js"></script>
+  </body>
+</html>
