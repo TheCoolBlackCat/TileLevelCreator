@@ -40,7 +40,7 @@ function logWorld() {
       arrayIndex++;
     }
   }
-  log.innerText += "];";
+  log.innerText += "]";
 }
 
 function showDrawables() {
